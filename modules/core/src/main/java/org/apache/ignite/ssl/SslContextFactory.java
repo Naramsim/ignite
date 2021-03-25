@@ -309,7 +309,7 @@ public class SslContextFactory implements Factory<SSLContext> {
     /**
      * Sets enabled cipher suites.
      *
-     * @param cipherSuites enabled cipher suites.
+     * @param cipherSuites comma-separated enabled cipher suites.
      */
     public void setCipherSuites(String... cipherSuites) {
         this.cipherSuites = cipherSuites;

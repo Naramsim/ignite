@@ -286,7 +286,7 @@ public class GridSslBasicContextFactory implements GridSslContextFactory {
     /**
      * Sets enabled cipher suites.
      *
-     * @param cipherSuites Enabled cipher suites.
+     * @param cipherSuites Enabled comma-separated cipher suites.
      */
     public void setCipherSuites(String... cipherSuites) {
         this.cipherSuites = cipherSuites;
